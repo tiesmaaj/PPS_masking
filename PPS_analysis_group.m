@@ -1,6 +1,14 @@
 %% PPS Group Analysis
 close all; clear; clc;
 
+% Step 1 - ensure excel file (named 'PPS_data') is closed and in same folder as this script
+%
+% Step 2 - hit run at the top left of the matlab window
+% 
+% Step 3 - specify what types of plots you want into the command window and then hit enter
+%
+% Step 4 - plot any variable combination you want by copying the lines of codes, pasting them right under where you copied from,s and then just changing the x and y information!!!
+
 single_group_scatters = input('Plot Single Group Scatters? 0 = NO; 1 = YES : ');
 single_group_regressions = input('Plot Single Group Regressions? 0 = NO; 1 = YES : ');
 

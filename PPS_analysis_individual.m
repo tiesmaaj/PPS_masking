@@ -1,6 +1,16 @@
 %% PPS Individual Analysis
 close all; clear; clc;
 
+% Step 1 - put file to analyze in same folder as this script, which should be PPS_masking
+%
+% Step 2 - ensure excel file (named 'PPS_data') is closed and in same folder as this script
+%
+% Step 3 - paste file name in the variable file_to_load
+%
+% Step 4 - hit run at the top left of the matlab window
+% 
+% Step 5 - type the participant number into the command window (e.g. '4') and then hit enter
+
 file_to_load = 'P07_TrialData20250328125304.csv'; % Ensure file is in the folder
 output_file = 'PPS_data.xlsx'; % Output Excel file
 sheet_name = 'Sheet1'; % Sheet name
